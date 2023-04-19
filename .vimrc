@@ -52,6 +52,15 @@ Plugin 'alfredodeza/jacinto.vim'
 Plugin 'heartsentwined/vim-emblem'
 Plugin 'digitaltoad/vim-pug'
 Plugin 'rstacruz/vim-xtract'
+Plugin 'yuezk/vim-js'
+Plugin 'maxmellon/vim-jsx-pretty'
+Plugin 'othree/html5.vim'
+Plugin 'evanleck/vim-svelte'
+
+Plugin 'pantharshit00/vim-prisma'
+
+" Typescript
+Plugin 'leafgarland/typescript-vim'
 
 " Elixir
 Plugin 'elixir-lang/vim-elixir'
@@ -161,5 +170,8 @@ set wildignore+=*.~             "wig:   ignore compiled objects and backups
 set wig+=*.o,*.obj,*.pyc
 set wig+=.sass-cache,tmp
 set wildmode=longest:full,list:full
+
+set noerrorbells visualbell t_vb=
+autocmd GUIEnter * set visualbell t_vb=
 
 source ~/.vim/after.vim

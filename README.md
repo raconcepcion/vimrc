@@ -1,8 +1,13 @@
-**Must write this down so I wont forgot**
+**Must write this down so I won't forget**
 ------------------------------------------
 
 ```
 git clone git@github.com:raconcepcion/vimrc.git
+```
+
+```
+cd ~/.vim
+mkdir tmp tmp/undo tmp/swap tmp/backup
 ```
 
 ```
@@ -11,8 +16,7 @@ ln -nfs ~/.vim/.profile ~/.profile
 ```
 
 ```
-cd ~/.vim
-mkdir tmp tmp/undo tmp/swap tmp/backup
+add source ~/.profile to .zshrc
 ```
 
 ```
