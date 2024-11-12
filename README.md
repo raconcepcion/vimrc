@@ -5,6 +5,8 @@
 git clone git@github.com:raconcepcion/vimrc.git
 ```
 
+copy `.profile`, `.vimrc` and `after.vim` to `.vim` directory
+
 ```
 cd ~/.vim
 mkdir tmp tmp/undo tmp/swap tmp/backup
