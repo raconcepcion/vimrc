@@ -13,6 +13,7 @@ Plugin 'zaiste/Atom'
 Plugin 'tpope/vim-vividchalk'
 Plugin 'whatyouhide/vim-gotham'
 Plugin 'altercation/vim-colors-solarized'
+Plugin 'joshdick/onedark.vim'
 
 " Files
 Plugin 'scrooloose/nerdtree'
@@ -33,8 +34,9 @@ Plugin 'scrooloose/nerdcommenter'
 Plugin 'vim-scripts/scratch.vim'
 Plugin 'tpope/vim-sleuth'
 
-" Fancy Stuvves
-Plugin 'bling/vim-airline'
+" Fancy Stuff
+Plugin 'vim-airline/vim-airline'
+Plugin 'vim-airline/vim-airline-themes'
 Plugin 'michaeljsmith/vim-indent-object'
 
 " Ruby / Rails

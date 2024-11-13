@@ -1,14 +1,16 @@
+syntax on
+colorscheme onedark
+
 set t_Co=256
 set background=dark
-color solarized
+set termguicolors
+
 set wrap
 set number
 set mouse=ia
 set clipboard=unnamed
 
 let mapleader=','
-
-syntax enable
 
 ino jj                <esc>
 ino kk                <esc>
@@ -69,3 +71,6 @@ let g:ScreenImpl = 'Tmux'
 let g:ScreenShellTmuxInitArgs = '-2'
 let g:ScreenShellQuitOnVimExit = 1
 let g:ScreenShellWidth = 60
+
+let g:airline_theme='onedark'
+let g:airline#extensions#tabline#enabled = 1
